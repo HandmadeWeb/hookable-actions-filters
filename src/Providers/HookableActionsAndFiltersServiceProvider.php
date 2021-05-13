@@ -4,8 +4,6 @@ namespace Michaelr0\HookableActionsAndFilters\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Michaelr0\HookableActionsAndFilters\Action;
-use Michaelr0\HookableActionsAndFilters\Filter;
 
 class HookableActionsAndFiltersServiceProvider extends ServiceProvider
 {
