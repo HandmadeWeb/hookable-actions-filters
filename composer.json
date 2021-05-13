@@ -38,7 +38,7 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
-        "test-coverage-clover": "vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover"
+        "test-coverage-clover": "vendor/bin/phpunit --coverage-text --coverage-clover=build/logs/clover.xml"
     },
     "config": {
         "sort-packages": true
