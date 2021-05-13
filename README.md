@@ -1,9 +1,5 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/michaelr0/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/michaelr0/hookable-actions-filters)
 [![Total Downloads](https://img.shields.io/packagist/dt/michaelr0/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/michaelr0/hookable-actions-filters) 
-[![StyleCI](https://github.styleci.io/repos/366866426/shield?branch=master)](https://github.styleci.io/repos/366866426?branch=master) 
-[![Build Status](https://img.shields.io/travis/michaelr0/hookable-actions-filters/master.svg?style=flat-square)](https://travis-ci.com/michaelr0/hookable-actions-filters)
-[![Quality Score](https://img.shields.io/scrutinizer/g/michaelr0/hookable-actions-filters.svg?style=flat-square)](https://scrutinizer-ci.com/g/michaelr0/hookable-actions-filters)
-[![Code Coverage](https://scrutinizer-ci.com/g/michaelr0/hookable-actions-filters/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/michaelr0/hookable-actions-filters/?branch=master)
 
 Hookable Actions And Filters is an Action and Filter library inspired by WordPress's Actions and Filters.
 This package can be used in Laravel and supports auto discovery, alternatively the package can also be used in any PHP project.
