@@ -12,6 +12,19 @@ abstract class Hookable
     protected static $listeners = [];
 
     /**
+     * Fix listener ordering/priority.
+     *
+     * @param string $listener
+     * @return void
+     */
+    protected static function ksort(string $listener)
+    {
+        if (isset(static::$listeners[$listener]) && count(static::$listeners[$listener]) > 1) {
+            ksort(static::$listeners[$listener], SORT_NUMERIC);
+        }
+    }
+
+    /**
      * Adds a new callback to the Listeners.
      *
      * @param string $listener
@@ -27,9 +40,7 @@ abstract class Hookable
         ];
 
         // Fix ordering/priority
-        if (count(static::$listeners[$listener]) > 1) {
-            ksort(static::$listeners[$listener], SORT_NUMERIC);
-        }
+        static::ksort($listener);
 
         return $additionalListener;
     }
@@ -154,9 +165,7 @@ abstract class Hookable
                 unset(static::$listeners[$listener][$priority][$key]);
 
                 // Fix ordering/priority
-                if (count(static::$listeners[$listener]) > 1) {
-                    ksort(static::$listeners[$listener], SORT_NUMERIC);
-                }
+                static::ksort($listener);
 
                 break;
             }
