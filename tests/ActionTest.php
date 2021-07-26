@@ -2,9 +2,9 @@
 
 namespace Michaelr0\ActionsAndFilters\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Michaelr0\HookableActionsAndFilters\Action;
 use Michaelr0\HookableActionsAndFilters\Providers\HookableActionsAndFiltersServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class ActionTest extends TestCase
 {
