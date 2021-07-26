@@ -20,10 +20,6 @@ jobs:
         include:
           - illuminate-collections: 8.*
             testbench: 6.*
-          - illuminate-collections: 7.*
-            testbench: 5.*
-          - illuminate-collections: 6.*
-            testbench: 4.*
           - php: 7.4
             dependency-version: prefer-lowest
             additional-deps: '"mockery/mockery:>=1.2.3"'
