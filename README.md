@@ -67,11 +67,11 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](https://github.com/michaelr0/hookable-actions-filters/CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/michaelr0/hookable-actions-filters/blob/master/CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/michaelr0/hookable-actions-filters/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/michaelr0/hookable-actions-filters/blob/master/CONTRIBUTING.md) for details.
 
 ## Security
 
@@ -84,4 +84,4 @@ If you discover any security related issues, please email michael@rook.net.au in
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/michaelr0/hookable-actions-filters/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/michaelr0/hookable-actions-filters/blob/master/LICENSE.md) for more information.
