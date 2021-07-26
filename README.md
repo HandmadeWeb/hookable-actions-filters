@@ -16,7 +16,7 @@ composer require michaelr0/hookable-actions-filters
 
 ## Usage
 
-#### Action Examples
+### Action Examples
 ``` php
 
 use Michaelr0\ActionsAndFilters\Action;
@@ -41,7 +41,7 @@ Action::run('unset', 'foobar');
 
 ```
 
-#### Filter Examples
+### Filter Examples
 ``` php
 
 use Michaelr0\ActionsAndFilters\Filter;
@@ -59,29 +59,29 @@ Filter::run('Test', 'foobar');
 
 ```
 
-### Testing
+## Testing
 
 ``` bash
 composer test
 ```
 
-### Changelog
+## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/michaelr0/hookable-actions-filters/CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/michaelr0/hookable-actions-filters/CONTRIBUTING.md) for details.
 
-### Security
+## Security
 
 If you discover any security related issues, please email michael@rook.net.au instead of using the issue tracker.
 
 ## Credits
 
 - [Michael Rook](https://github.com/michaelr0)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/michaelr0/hookable-actions-filters/graphs/contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/michaelr0/hookable-actions-filters/LICENSE.md) for more information.
