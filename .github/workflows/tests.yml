@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         php: [7.4, 7.3, 8.0]
-        illuminate-collections: [8.*, 7.*, 6.*]
+        illuminate-collections: [8.*]
         dependency-version: [prefer-lowest, prefer-stable]
         os: [ubuntu-20.04]
         include:
