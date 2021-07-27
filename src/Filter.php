@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelr0\HookableActionsAndFilters;
+namespace HandmadeWeb\HookableActionsAndFilters;
 
 class Filter
 {

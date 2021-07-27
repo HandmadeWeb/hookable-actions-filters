@@ -1,7 +1,7 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/michaelr0/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/michaelr0/hookable-actions-filters)
-[![Total Downloads](https://img.shields.io/packagist/dt/michaelr0/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/michaelr0/hookable-actions-filters) 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/handmadeweb/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/handmadeweb/hookable-actions-filters)
+[![Total Downloads](https://img.shields.io/packagist/dt/handmadeweb/hookable-actions-filters.svg?style=flat-square)](https://packagist.org/packages/handmadeweb/hookable-actions-filters) 
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Run Tests](https://github.com/michaelr0/hookable-actions-filters/actions/workflows/tests.yml/badge.svg)](https://github.com/michaelr0/hookable-actions-filters/actions/workflows/tests.yml)
+[![Run Tests](https://github.com/handmadeweb/hookable-actions-filters/actions/workflows/tests.yml/badge.svg)](https://github.com/handmadeweb/hookable-actions-filters/actions/workflows/tests.yml)
 
 Hookable Actions And Filters is an Action and Filter library inspired by WordPress's Actions and Filters.
 This package can be used in Laravel and supports auto discovery, alternatively the package can also be used in any PHP project.
@@ -11,7 +11,7 @@ This package can be used in Laravel and supports auto discovery, alternatively t
 You can install the package via composer:
 
 ```bash
-composer require michaelr0/hookable-actions-filters
+composer require handmadeweb/hookable-actions-filters
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ composer require michaelr0/hookable-actions-filters
 ### Action Examples
 ``` php
 
-use Michaelr0\ActionsAndFilters\Action;
+use HandmadeWeb\ActionsAndFilters\Action;
 
 // Eample function for test
 function action_test($key){
@@ -44,7 +44,7 @@ Action::run('unset', 'foobar');
 ### Filter Examples
 ``` php
 
-use Michaelr0\ActionsAndFilters\Filter;
+use HandmadeWeb\ActionsAndFilters\Filter;
 
 // Add a filter callback to a function by name
 Filter::add('Test', 'ucfirst');
@@ -67,11 +67,11 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](https://github.com/michaelr0/hookable-actions-filters/blob/master/CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/handmadeweb/hookable-actions-filters/blob/master/CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/michaelr0/hookable-actions-filters/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/handmadeweb/hookable-actions-filters/blob/master/CONTRIBUTING.md) for details.
 
 ## Security
 
@@ -79,9 +79,10 @@ If you discover any security related issues, please email michael@rook.net.au in
 
 ## Credits
 
+- [Handmade Web & Design](https://github.com/handmadeweb)
 - [Michael Rook](https://github.com/michaelr0)
-- [All Contributors](https://github.com/michaelr0/hookable-actions-filters/graphs/contributors)
+- [All Contributors](https://github.com/handmadeweb/hookable-actions-filters/graphs/contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/michaelr0/hookable-actions-filters/blob/master/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/handmadeweb/hookable-actions-filters/blob/master/LICENSE.md) for more information.

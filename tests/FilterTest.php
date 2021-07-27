@@ -1,9 +1,9 @@
 <?php
 
-namespace Michaelr0\HookableActionsAndFilters\Tests;
+namespace HandmadeWeb\HookableActionsAndFilters\Tests;
 
-use Michaelr0\HookableActionsAndFilters\Filter;
-use Michaelr0\HookableActionsAndFilters\Providers\HookableActionsAndFiltersServiceProvider;
+use HandmadeWeb\HookableActionsAndFilters\Filter;
+use HandmadeWeb\HookableActionsAndFilters\Providers\HookableActionsAndFiltersServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class FilterTest extends TestCase

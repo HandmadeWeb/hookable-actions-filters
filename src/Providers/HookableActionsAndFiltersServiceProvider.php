@@ -1,6 +1,6 @@
 <?php
 
-namespace Michaelr0\HookableActionsAndFilters\Providers;
+namespace HandmadeWeb\HookableActionsAndFilters\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

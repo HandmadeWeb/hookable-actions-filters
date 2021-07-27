@@ -1,13 +1,13 @@
 {
-    "name": "michaelr0/hookable-actions-filters",
+    "name": "handmadeweb/hookable-actions-filters",
     "description": "",
     "keywords": [
-        "michaelr0",
+        "handmadeweb",
         "hookable",
         "actions",
         "filters"
     ],
-    "homepage": "https://github.com/michaelr0/hookable-actions-filters",
+    "homepage": "https://github.com/handmadeweb/hookable-actions-filters",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Michaelr0\\HookableActionsAndFilters\\": "src"
+            "HandmadeWeb\\HookableActionsAndFilters\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Michaelr0\\HookableActionsAndFilters\\Tests\\": "tests"
+            "HandmadeWeb\\HookableActionsAndFilters\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,11 +44,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Michaelr0\\HookableActionsAndFilters\\Providers\\HookableActionsAndFiltersServiceProvider"
+                "HandmadeWeb\\HookableActionsAndFilters\\Providers\\HookableActionsAndFiltersServiceProvider"
             ],
             "aliases": {
-                "Action": "Michaelr0\\HookableActionsAndFilters\\Action",
-                "Filter": "Michaelr0\\HookableActionsAndFilters\\Filter"
+                "Action": "HandmadeWeb\\HookableActionsAndFilters\\Action",
+                "Filter": "HandmadeWeb\\HookableActionsAndFilters\\Filter"
             }
         }
     }
