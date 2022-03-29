@@ -91,9 +91,9 @@ trait Hookable
          */
         if (is_null($listener)) {
             // Return all listeners, sort listeners A - Z
-            return collect(static::$listeners)->map(function ($item) {
-                return collect($item)->sortKeys();
-            })->toArray();
+            return array_map(function ($item) {
+                return ksort($item);
+            }, static::$listeners);
 
         /*
          * $listener was not null, so start looking for a specific listener.
@@ -129,7 +129,7 @@ trait Hookable
              * Return results for this $listener, sort numeric priority ASC
              */
             return [
-                $listener => collect(static::$listeners[$listener])->sortKeys()->toArray(),
+                $listener => ksort(static::$listeners[$listener]),
             ];
         }
 
